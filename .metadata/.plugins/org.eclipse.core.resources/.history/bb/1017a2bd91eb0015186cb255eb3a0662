@@ -1,0 +1,31 @@
+package edu.towson.cis.cosc442.project2.vendingmachine;
+
+import edu.towson.cis.cosc442.project3.vendingmachine.VendingMachine;
+
+/**
+ * The class <code>VendingMachineFactory</code> implements static methods that return instances of the class <code>{@link VendingMachine}</code>.
+ *
+ * @generatedBy CodePro at 3/16/16 10:46 AM
+ * @author Dan
+ * @version $Revision: 1.0 $
+ */
+public class VendingMachineFactory
+ {
+	/**
+	 * Prevent creation of instances of this class.
+	 *
+	 * @generatedBy CodePro at 3/16/16 10:46 AM
+	 */
+	private VendingMachineFactory() {
+	}
+
+
+	/**
+	 * Create an instance of the class <code>{@link VendingMachine}</code>.
+	 *
+	 * @generatedBy CodePro at 3/16/16 10:46 AM
+	 */
+	public static VendingMachine createVendingMachine() {
+		return new VendingMachine();
+	}
+}

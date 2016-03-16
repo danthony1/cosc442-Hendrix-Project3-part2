@@ -1,0 +1,41 @@
+package edu.towson.cis.cosc442.project2.vendingmachine;
+
+import edu.towson.cis.cosc442.project3.vendingmachine.VendingMachineException;
+
+/**
+ * The class <code>VendingMachineExceptionFactory</code> implements static methods that return instances of the class <code>{@link VendingMachineException}</code>.
+ *
+ * @generatedBy CodePro at 3/16/16 10:46 AM
+ * @author Dan
+ * @version $Revision: 1.0 $
+ */
+public class VendingMachineExceptionFactory
+ {
+	/**
+	 * Prevent creation of instances of this class.
+	 *
+	 * @generatedBy CodePro at 3/16/16 10:46 AM
+	 */
+	private VendingMachineExceptionFactory() {
+	}
+
+
+	/**
+	 * Create an instance of the class <code>{@link VendingMachineException}</code>.
+	 *
+	 * @generatedBy CodePro at 3/16/16 10:46 AM
+	 */
+	public static VendingMachineException createVendingMachineException() {
+		return new VendingMachineException("");
+	}
+
+
+	/**
+	 * Create an instance of the class <code>{@link VendingMachineException}</code>.
+	 *
+	 * @generatedBy CodePro at 3/16/16 10:46 AM
+	 */
+	public static VendingMachineException createVendingMachineException2() {
+		return new VendingMachineException();
+	}
+}
